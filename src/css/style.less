@@ -1,6 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background: lightgoldenrodyellow;
 }
 
 ol, ul {
@@ -45,6 +46,28 @@ ol, ul {
   flex-direction: row;
 }
 
+.game-board {
+  margin-left: 20px;
+}
+.next {
+  min-width: 100px;
+}
 .game-info {
   margin-left: 20px;
+}
+
+a.current {
+  font-weight: bold;
+}
+
+.winner {
+  background: lightblue;
+}
+ol.reversed { 
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+li {
+  flex: 0 0 auto;
 }
